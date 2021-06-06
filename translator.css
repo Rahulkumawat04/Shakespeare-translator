@@ -1,59 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-
 body {
-    margin: 0rem;
+  margin: 0rem;
 }
 
 main {
-    /* background-image: url(http://assets.stickpng.com/images/580b585b2edbce24c47b2462.png); */
-    /* background-image: url(https://wallpapercave.com/wp/wp4064830.jpg); */
-    background-image: url(https://wallpapercave.com/wp/wp4064839.jpg);
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
-    background-repeat: no-repeat;
-    background-clip: padding-box;
-    background-position-x: center;
-    font-family: 'Satisfy';
-    font-weight: lighter;
-    margin-top: 0%;
-    margin-bottom: 1rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+  /* background-image: url(http://assets.stickpng.com/images/580b585b2edbce24c47b2462.png); */
+  /* background-image: url(https://wallpapercave.com/wp/wp4064830.jpg); */
+  background-image: url(https://wallpapercave.com/wp/wp4064839.jpg);
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-position-x: center;
+  font-family: "Satisfy";
+  font-weight: lighter;
+  margin-top: 0%;
+  margin-bottom: 1rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
-h1{
-    font-size: 3rem;
+h1 {
+  font-size: 3rem;
 }
 
 #input-txt {
-    height: 10rem;
-    width: 50%;
-    display: block;
-    margin: auto;
+  height: 10rem;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.grady-grid-center {
+  display: grid;
 }
 
 #btn-translate {
-    padding: 1rem 2rem;
-    margin: 1rem 0rem;
-    font-family: 'Satisfy';
-    font-size: 1.2rem;
-    border-style: none;
-    /* background-image: url(http://assets.stickpng.com/images/580b585b2edbce24c47b2462.png); */
-    background-image: url(https://wallpapercave.com/wp/wp4064839.jpg);
-    background-position-x: center;
-    border-radius: 1rem;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  font-family: "Satisfy";
+  font-size: 1.2rem;
+  border-style: none;
+  /* background-image: url(http://assets.stickpng.com/images/580b585b2edbce24c47b2462.png); */
+  background-image: url(https://wallpapercave.com/wp/wp4064839.jpg);
+  border-radius: 1rem;
 }
 
 #output-div {
-    border: 1px solid black;
-    height: 20vh;
-    width: 50%;
-    margin: auto;
-    overflow: scroll;
+  border: 1px solid black;
+  height: 20vh;
+  width: 50%;
+  margin: auto;
+  overflow: scroll;
+}
+
+@media (max-width: 768px) {
+  #input-txt,
+  #btn-translate,
+  #output-div {
+    width: 95%;
+  }
 }
